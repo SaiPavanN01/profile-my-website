@@ -1,0 +1,94 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.hero-section{
+    height:200px;
+    overflow: hidden;
+}
+.hero-section-image{
+    width:100%;
+}
+.profile-pic-section{
+    border-radius: 75px;
+    height: 150px;
+    margin:40px;
+    margin-top: -75px;
+    border: 5px solid lightcyan;
+}
+.profile-name-about-section{
+    display: flex;
+    gap: 5px;
+}
+.name-section{
+    padding: 1px;
+}
+.name-section .name{
+    font-size:25px;
+}
+.name-section .about-section{
+    font-size:15px;
+}
+.tab-section{
+    width: 200px;
+    
+   
+}
+.tab-link-list{
+    list-style-type: none;
+    padding: 0;
+    padding-top: -20px;
+    height:300px
+    
+}
+.tab-link-list a{
+    text-decoration: none;
+    color:slategray;
+    margin:3px;
+}
+.tab-link-list li{
+    border:2px solid lightslategrey;
+    width: 180px;
+    height: 40px;
+}
+.tab-link-list li.selected{
+    background-color: sandybrown;
+}
+.tab-link-list li.selected a{
+    color:black;
+}
+.mid-section{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.about-me-section{
+    display: flex;
+}
+.movie-list{
+    display: flex;
+}
+.movie-list-item{
+    list-style-type: none;
+}
+.movie-poster{
+    width: 200px;
+    height: 200px;
+}
+.books-list{
+    display: flex;
+    gap:10px;
+}
+.book-list-item{
+    list-style-type: none;
+}
+.book-poster{
+    width: 200px;
+    height: 200px;
+}
+/* .hobbies-list{
+    
+} */
+.hobbies-list-item{
+    
+    padding: 10px;
+}
